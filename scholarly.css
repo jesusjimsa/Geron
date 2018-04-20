@@ -1,0 +1,93 @@
+body {
+    font-family: "Helvetica Neue", Times, serif;
+    background: #f7f7f7;
+    color: black;
+}
+
+body > section, article {
+    padding: 0 10px;
+    margin: 0 auto 120px auto;
+    max-width: 900px;
+}
+
+article {
+    /* the padding is 116px 116px 80px 116px, from which we remove the border */
+    padding: 0px 88px 72px 108px;
+    background: #fff;
+    border-top: 5px solid transparent;
+    border-right: 28px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 4px solid transparent;
+    font-size: 16.875px;
+    font-weight: 300;
+    line-height: 24px;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+h1{
+	font-size: 53.33px;
+	text-align: center;
+}
+
+h2{
+	font-size: 40px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 22.5px;
+}
+
+.contact .jesusjimsa{
+	margin-right: 500px;
+	margin-top: 16px;
+}
+
+.wireframes_desktop img{
+	width: 548px;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.wireframes_desktop p{
+	font-size: 12.66px;
+	text-align: center;
+	padding-bottom: 5px;
+	position: relative;
+	bottom: 15px;
+}
+
+.wireframes_mobile img{
+	height: 548px;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.wireframes_mobile p{
+	font-size: 12.66px;
+	text-align: center;
+	padding-bottom: 5px;
+	position: relative;
+	bottom: 15px;
+}
+
+.wireframes_watch img{
+	height: 322.5px;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.wireframes_watch p{
+	font-size: 12.66px;
+	text-align: center;
+	padding-bottom: 5px;
+	position: relative;
+	bottom: 15px;
+}
