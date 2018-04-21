@@ -94,14 +94,15 @@ h4{
 
 .typography{
 	line-height: 4px;
+	text-align: center;
 }
 
 .typography .caption{
 	font-size: 12.66px;
 }
 
-.typography #not_center h1{
-	text-align: left;
+.typography h1{
+	line-height: -5px;
 }
 
 #logo img{
@@ -168,13 +169,51 @@ h4{
 	margin-bottom:1em;
 }
 
-table {
+.colours table {
 	border-collapse: separate;
 	border-spacing: 55px 0;
 	margin-left:auto; 
 	margin-right:auto;
 }
 
-td {
+.colours td {
 	padding: 9px 0;
+}
+
+.table_qoc table, .table_qoc th, .table_qoc td{
+	border-top: 1px solid rgb(142, 142, 145);
+	border-bottom: 1px solid rgb(142, 142, 145);
+	border-collapse: collapse;
+	text-align: center;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.table_qoc table{
+	width: 90%;
+}
+
+.table_qoc th{
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.table_qoc td{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.table_qoc .header_center{
+	text-align: center;
+	border-top: 1px solid rgba(142, 142, 145, 0);
+}
+
+.table_qoc .bold_border{
+	border-top: 2px solid rgb(142, 142, 145);
+	border-bottom: 1px solid rgba(142, 142, 145, 0);
 }
