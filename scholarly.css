@@ -1,28 +1,28 @@
 body {
-    font-family: "Helvetica Neue", Times, serif;
-    background: #f7f7f7;
-    color: black;
+	font-family: "Helvetica Neue", Times, serif;
+	background: #f7f7f7;
+	color: black;
 }
 
 body > section, article {
-    padding: 0 10px;
-    margin: 0 auto 120px auto;
-    max-width: 900px;
+	padding: 0 10px;
+	margin: 0 auto 120px auto;
+	max-width: 900px;
 }
 
 article {
-    /* the padding is 116px 116px 80px 116px, from which we remove the border */
-    padding: 0px 88px 72px 108px;
-    background: #fff;
-    border-top: 5px solid transparent;
-    border-right: 28px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-left: 4px solid transparent;
-    font-size: 16.875px;
-    font-weight: 300;
-    line-height: 24px;
-    -moz-hyphens: auto;
-    hyphens: auto;
+	/* the padding is 116px 116px 80px 116px, from which we remove the border */
+	padding: 0px 88px 72px 108px;
+	background: #fff;
+	border-top: 5px solid transparent;
+	border-right: 28px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 4px solid transparent;
+	font-size: 16.875px;
+	font-weight: 300;
+	line-height: 24px;
+	-moz-hyphens: auto;
+	hyphens: auto;
 }
 
 h1{
@@ -50,7 +50,7 @@ h4{
 .wireframes_desktop img{
 	width: 548px;
 	display: block;
-    margin-left: auto;
+	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -65,7 +65,7 @@ h4{
 .wireframes_mobile img{
 	height: 548px;
 	display: block;
-    margin-left: auto;
+	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -80,7 +80,7 @@ h4{
 .wireframes_watch img{
 	height: 322.5px;
 	display: block;
-    margin-left: auto;
+	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -90,4 +90,91 @@ h4{
 	padding-bottom: 5px;
 	position: relative;
 	bottom: 15px;
+}
+
+.typography{
+	line-height: 4px;
+}
+
+.typography .caption{
+	font-size: 12.66px;
+}
+
+.typography #not_center h1{
+	text-align: left;
+}
+
+#logo img{
+	height: 300px;
+	width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.swatch {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	font-family: "Helvetica Neue", -apple-system, "Myriad Set Pro", "Lucida Grande", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+	.swatch {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.swatch {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+.swatch .swatch-color {
+	margin-left: 6px;
+	margin-right: 6px;
+	height: 60px;
+	width: 60px;
+	border-radius: 10px;
+	padding: 0.8em 1em;
+}
+
+.swatch .swatch-color span {
+	display:block;
+	color: #FFF;
+	line-height: 1.2;
+	font-size:16.875px;
+}
+
+.swatch .swatch-color.color-blue { background-color: rgb(27,173,248);}
+.swatch .swatch-color.color-brown { background-color: rgb(162,132,94);}
+.swatch .swatch-color.color-gray { background-color: rgb(142, 142, 145);}
+.swatch .swatch-color.color-green { background-color: rgb(99, 218, 56);}
+.swatch .swatch-color.color-orange { background-color: rgb(255, 149, 0);}
+.swatch .swatch-color.color-pink { background-color: rgb(255, 41, 104);}
+.swatch .swatch-color.color-purple { background-color: rgb(204, 115, 225);}
+.swatch .swatch-color.color-red { background-color: rgb(255, 59, 48);}
+.swatch .swatch-color.color-yellow { background-color: rgb(255, 204, 0);}
+
+.swatch .swatch-label {
+	display:block;
+	text-align: center;
+	color:#666;
+	padding-top:0.7em;
+	font-size:16.875px;
+	margin-bottom:1em;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 55px 0;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+td {
+	padding: 9px 0;
 }
