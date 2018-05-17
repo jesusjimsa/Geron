@@ -26,20 +26,24 @@ article {
 }
 
 h1{
-	font-size: 53.33px;
+	font-size: 3.68vw;
 	text-align: center;
 }
 
 h2{
-	font-size: 40px;
+	font-size: 2.78vw;
 }
 
 h3{
-	font-size: 30px;
+	font-size: 2.08vw;
 }
 
 h4{
-	font-size: 22.5px;
+	font-size: 1.56vw;
+}
+
+p{
+	font-size: 0.88vw;
 }
 
 .contact .jesusjimsa{
@@ -56,7 +60,7 @@ h4{
 }
 
 .wireframes_desktop p{
-	font-size: 12.66px;
+	font-size: 0.88vw;
 	text-align: center;
 	padding-bottom: 5px;
 	position: relative;
@@ -72,7 +76,7 @@ h4{
 }
 
 .wireframes_mobile p{
-	font-size: 12.66px;
+	font-size: 0.88vw;
 	text-align: center;
 	padding-bottom: 5px;
 	position: relative;
@@ -88,7 +92,7 @@ h4{
 }
 
 .wireframes_watch p{
-	font-size: 12.66px;
+	font-size: 0.88vw;
 	text-align: center;
 	padding-bottom: 5px;
 	position: relative;
@@ -101,7 +105,7 @@ h4{
 }
 
 .typography .caption{
-	font-size: 12.66px;
+	font-size: 0.88vw;
 }
 
 .typography h1{
