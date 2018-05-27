@@ -1,3 +1,5 @@
 <resources>
 	<string name="app_name">Geco</string>
+	<string name="devices_view">Devices</string>
+	<string name="alt_add_device">Add device</string>
 </resources>
