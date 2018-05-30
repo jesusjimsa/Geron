@@ -17,6 +17,7 @@ public class CustomList extends ArrayAdapter {
 	private final Activity context;
 	private final String[] web;
 	private final Integer[] imageId;
+	private static int image_desc_id = 0;
 
 	public CustomList(Activity context, String[] web, Integer[] imageId) {
 		super(context, R.layout.gestures_list_item, web);
@@ -35,6 +36,10 @@ public class CustomList extends ArrayAdapter {
 		txtTitle.setText(web[position]);
 
 		imageView.setImageResource(imageId[position]);
+		imageView.setContentDescription("Gesture image " + String.valueOf(image_desc_id));
+
+		image_desc_id++;
+
 		return rowView;
 	}
 }

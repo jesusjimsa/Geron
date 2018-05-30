@@ -10,6 +10,7 @@ import java.util.Arrays;
 
 public class ImageAdapter extends BaseAdapter {
 	private Context mContext;
+	private static int image_desc_id = 0;
 
 	/*
 	* The array of Integers has to be declared with at least one element,
@@ -80,6 +81,9 @@ public class ImageAdapter extends BaseAdapter {
 			imageView.setLayoutParams(new ViewGroup.LayoutParams(300, 300));
 			imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
 			imageView.setPadding(8, 8, 8, 8);
+			imageView.setContentDescription("Device icon " + String.valueOf(image_desc_id));
+
+			image_desc_id++;
 		}
 		else {
 			imageView = (ImageView) convertView;

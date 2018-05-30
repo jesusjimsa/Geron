@@ -11,4 +11,7 @@
 
 	<string name="alt_add_device">Add device</string>
 	<string name="alt_gesture_img">Gesture image</string>
+	<string name="alt_gesture_edit">Edit gesture</string>
+	<string name="alt_gesture_animation">Gesture animation</string>
+	<string name="alt_device_icon">Device icon</string>
 </resources>

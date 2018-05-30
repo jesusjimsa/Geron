@@ -38,10 +38,11 @@
 
 	<ImageView
 		android:id="@+id/add_button"
-		android:layout_width="45dp"
-		android:layout_height="45dp"
+		android:layout_width="48dp"
+		android:layout_height="48dp"
 		android:layout_marginEnd="16dp"
 		android:layout_marginTop="18dp"
+		android:contentDescription="@string/alt_add_device"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintTop_toTopOf="parent"
 		app:srcCompat="@drawable/add" />
