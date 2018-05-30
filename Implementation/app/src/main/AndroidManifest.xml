@@ -16,6 +16,11 @@
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 		</activity>
+		<activity android:name=".AvailableDevices" />
+		<activity android:name=".DeviceDetailsAdd" />
+		<activity android:name=".DeviceDetails" />
+		<activity android:name=".GestureDetails" />
+		<activity android:name=".AvailableGestures"></activity>
 	</application>
 
 </manifest>

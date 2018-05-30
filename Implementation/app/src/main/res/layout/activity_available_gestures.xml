@@ -6,4 +6,44 @@
 	android:layout_height="match_parent"
 	tools:context=".AvailableGestures">
 
+	<TextView
+		android:id="@+id/modify_gesture"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="16dp"
+		android:text="@string/modify_gesture_title"
+		android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+		android:textSize="36sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<TextView
+		android:id="@+id/choose_one"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/choose_one"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/modify_gesture" />
+
+	<GridView
+		android:id="@+id/available_gestures"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="8dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:gravity="center"
+		android:horizontalSpacing="10dp"
+		android:numColumns="2"
+		android:stretchMode="columnWidth"
+		android:verticalSpacing="10dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/choose_one" />
+
 </android.support.constraint.ConstraintLayout>

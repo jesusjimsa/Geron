@@ -6,8 +6,19 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
+import java.util.Arrays;
+
 public class ImageAdapter extends BaseAdapter {
 	private Context mContext;
+
+	/*
+	* The array of Integers has to be declared with at least one element,
+	* if it's not done this way, the getView method throws an error.
+	*
+	* The
+	* */
+	// references to the images
+	private Integer[] mThumbIds = {0};
 
 	public ImageAdapter(Context c) {
 		mContext = c;
@@ -18,11 +29,45 @@ public class ImageAdapter extends BaseAdapter {
 	}
 
 	public Object getItem(int position) {
-		return null;
+		return mThumbIds[position];
 	}
 
 	public long getItemId(int position) {
 		return 0;
+	}
+
+	public void addItem(Integer item){
+		mThumbIds = append(mThumbIds, item);
+	}
+
+	public void deleteFirstItem(){
+		if(mThumbIds[0] == 0){
+			final int N = mThumbIds.length;
+			Integer[] array = mThumbIds.clone();
+
+			mThumbIds = new Integer[N - 1];
+
+			for(int i = 1; i < N; i++){
+				mThumbIds[i-1] = array[i];
+			}
+		}
+	}
+
+	/*
+	* Source of this method: https://stackoverflow.com/a/2843373/7071193
+	* */
+	private static <T> T[] append(T[] arr, T element) {
+		final int N = arr.length;
+
+		arr = Arrays.copyOf(arr, N + 1);
+		arr[N] = element;
+
+		return arr;
+	}
+
+	@Override
+	public void notifyDataSetChanged(){
+		super.notifyDataSetChanged();
 	}
 
 	// create a new ImageView for each item referenced by the Adapter
@@ -44,7 +89,4 @@ public class ImageAdapter extends BaseAdapter {
 
 		return imageView;
 	}
-
-	// references to our images
-	private Integer[] mThumbIds = {R.drawable.dvd, R.drawable.tv, R.drawable.computer};
 }
