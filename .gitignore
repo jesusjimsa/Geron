@@ -425,5 +425,6 @@ fabric.properties
 
 ### Added by me ###
 *.pages
+Gestures\ Simulation.mov
 
 # End of https://www.gitignore.io/api/c,c++,java,xcode,swift,macos,visualstudiocode,android,androidstudio
