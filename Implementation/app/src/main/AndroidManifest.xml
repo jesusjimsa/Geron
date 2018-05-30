@@ -20,7 +20,8 @@
 		<activity android:name=".DeviceDetailsAdd" />
 		<activity android:name=".DeviceDetails" />
 		<activity android:name=".GestureDetails" />
-		<activity android:name=".AvailableGestures"></activity>
+		<activity android:name=".AvailableGestures" />
+		<activity android:name=".MainSimulation"></activity>
 	</application>
 
 </manifest>

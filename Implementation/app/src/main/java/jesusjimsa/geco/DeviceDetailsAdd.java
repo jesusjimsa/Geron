@@ -24,7 +24,7 @@ public class DeviceDetailsAdd extends AppCompatActivity {
 		Intent intent = getIntent();
 		final String device_name = intent.getStringExtra("device_name");
 
-		TextView devices_name = findViewById(R.id.devices_name);
+		final TextView devices_name = findViewById(R.id.devices_name);
 		devices_name.setText(device_name);
 
 		initializeGestures(device_name);
@@ -49,7 +49,13 @@ public class DeviceDetailsAdd extends AppCompatActivity {
 
 		add_device.setOnClickListener(new View.OnClickListener(){
 			public void onClick(View v) {
-				Toast.makeText(DeviceDetailsAdd.this, "You already had this device", Toast.LENGTH_SHORT).show();
+				if(!device_name.equals("iPod")) {
+					Toast.makeText(DeviceDetailsAdd.this, "You already had this device", Toast.LENGTH_SHORT).show();
+				}
+				else {
+					Intent launch = new Intent(DeviceDetailsAdd.this, MainSimulation.class);
+					startActivity(launch);
+				}
 
 				finish();
 			}
