@@ -31,19 +31,19 @@ public class MainActivity extends AppCompatActivity {
 
 				switch (position){
 					case 0:
-						device_name = "DVD";
-						break;
-					case 1:
-						device_name = "TV";
-						break;
-					case 2:
 						device_name = "Computer";
 						break;
-					case 3:
+					case 1:
 						device_name = "Kitchen robot";
 						break;
-					case 4:
+					case 2:
+						device_name = "TV";
+						break;
+					case 3:
 						device_name = "Washing machine";
+						break;
+					case 4:
+						device_name = "DVD";
 						break;
 					case 5:
 						device_name = "iPod";
