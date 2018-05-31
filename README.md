@@ -8,4 +8,6 @@ Develop a smart personal assistant which makes use of natural means of interacti
 [Documentation](https://jesusjimsa.github.io/Geron/Design/scholarly.html)
 
 ## Scholarly HTML report (implementation)
-[Documentation](https://jesusjimsa.github.io/Geron/Implementation/scholarly.html)
+[Documentation](https://jesusjimsa.github.io/Geron/Implementation/scholarly.html)  
+[Application user guide](https://jesusjimsa.github.io/Geron/Implementation/user_guide.html)  
+[Video demonstration](https://www.youtube.com/watch?v=WHI0lMVye_k)
