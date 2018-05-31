@@ -426,5 +426,8 @@ fabric.properties
 ### Added by me ###
 *.pages
 Gestures\ Simulation.mov
+*.m4a
+IMG_10*
+Screencast*
 
 # End of https://www.gitignore.io/api/c,c++,java,xcode,swift,macos,visualstudiocode,android,androidstudio
