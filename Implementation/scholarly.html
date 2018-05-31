@@ -30,8 +30,219 @@
 
 		<section typeof="sa:Implementation">
 			<h2>Implementation</h2>
-			<section>
-			</section>
+
+			<p>
+				This project has been developed in Java for the Android platform using Android Studio.
+				<br> This has been the result of the implementation:
+			</p>
+			<div class="screenshots">
+				<table>
+					<tr>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/main.png" alt="Main view">
+							</figure>
+						</td>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/available_devices.png" alt="Available devices">
+							</figure>
+						</td>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/add_ipod.png" alt="Add device">
+							</figure>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/main_modified.png" alt="Device added">
+							</figure>
+						</td>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/dvd_gestures.png" alt="Device gestures">
+							</figure>
+						</td>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/gesture_details.png" alt="Gesture details">
+							</figure>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/available_gestures.png" alt="Available gestures">
+							</figure>
+						</td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<section typeof="sa:UsabilityTest">
+			<h2>Usability Test</h2>
+			<div class="usability">
+				<iframe src="https://jesusjimsa.github.io/Geron/Implementation/Usability%20test/web/usability.html"></iframe>
+			</div>
+			<h3>Background questionnaires</h3>
+			<div class="background">
+				<iframe src="https://jesusjimsa.github.io/Geron/Implementation/Usability%20test/web/userbackground1.html"></iframe>
+				<iframe src="https://jesusjimsa.github.io/Geron/Implementation/Usability%20test/web/userbackground2.html"></iframe>
+				<iframe src="https://jesusjimsa.github.io/Geron/Implementation/Usability%20test/web/userbackground3.html"></iframe>
+				<iframe src="https://jesusjimsa.github.io/Geron/Implementation/Usability%20test/web/userbackground4.html"></iframe>
+				<iframe src="https://jesusjimsa.github.io/Geron/Implementation/Usability%20test/web/userbackground5.html"></iframe>
+			</div>
+			<h3>Statements of informed consent and pictures of users</h3>
+			<p>This documents will be available upon request.</p>
+		</section>
+		<section typeof="sa:AccessibilityTest">
+			<h2>Accessibility test</h2>
+			<p>The accessibility test was performed using Google's app
+				<a href="https://is.gd/U4jeqo">Accessibility Scanner</a>. These were the results:
+			</p>
+			<div class="accessibility_result">
+				<table>
+					<tr>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/accessibility_gesture_details.png" alt="Accessibility problems">
+							</figure>
+						</td>
+						<td>
+							<p>
+								Item label
+								<br> jesusjimsa.geco:id/edit_button
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Touch target
+								<br> jesusjimsa.geco:id/edit_button
+								<br> This item's size is 30dp x 30dp. Consider making this touch target 48dp wide and 48dp high or larger.
+								<br>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>
+								<strong>Solved by adding a label to the edit button and changing its size to 48 dp wide and high.</strong>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/accessibility_devices.png" alt="Accessibility problems">
+							</figure>
+						</td>
+						<td>
+							<p>
+								Item label
+								<br> jesusjimsa.geco:id/add_button
+								<br> This item may not have a label readable by screen readers.
+								<br> Item label
+								<br> [33,321][333,621]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br> Item label
+								<br> [387,321][687,621]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Item label
+								<br> [33,641][333,941]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Item label
+								<br> [387,641][687,941]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Item label
+								<br> [33,961][333,1261]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Touch target
+								<br> jesusjimsa.geco:id/add_button
+								<br> This item's size is 45dp x 45dp. Consider making this touch target 48dp wide and 48dp high or larger.
+								<br> </p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>
+								<strong>Solved by adding a label to every device icon and making the add button 48dp wide and high.</strong>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<figure typeof="sa:image">
+								<img src="img/accessibility_gestures_available.png" alt="Accessibility problems">
+							</figure>
+						</td>
+						<td>
+							<p>
+								Item label
+								<br> [33,375][333,675]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Item label
+								<br> [387,375][687,675]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Item label
+								<br> [33,695][333,995]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Item label
+								<br> [387,695][687,995]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Item label
+								<br> [33,1015][333,1264]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+								<br>
+								<br> Item label
+								<br> [387,1015][687,1264]
+								<br> This item may not have a label readable by screen readers.
+								<br>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>
+								<strong>Solved by adding a label to all the available gestures.</strong>
+							</p>
+						</td>
+					</tr>
+				</table>
+		</section>
+		<section typeof="sa:VideoDemonstration">
+			<h2>Video Demonstration</h2>
+			<div class="video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/WHI0lMVye_k?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media"
+				 allowfullscreen></iframe>
+			</div>
+		</section typeof="sa:UserGuide">
+		<h2>User guide</h2>
+		<p>The user guide is available in
+			<a href="">this link</a>.</p>
+		<section>
+
+		</section>
 	</article>
 </body>
 
